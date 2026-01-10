@@ -24,12 +24,6 @@ I help teams build and scale **reliable cloud-native systems**, streamline DevOp
 * 🤝 **I lead:** Cross-functional teams in R&D and software development.
 * 🧙 **I solve:** Complex infrastructure challenges (e.g., scaling Elasticsearch clusters to 100+ nodes).
 
-### 🛠 Tech Stack
-
-| Core | Infrastructure & Cloud | DevOps & Tools |
-| :--- | :--- | :--- |
-| <img src="https://skillicons.dev/icons?i=go,java,scala,python,ts" width="200"/> | <img src="https://skillicons.dev/icons?i=terraform,aws,gcp,kubernetes,docker,kafka" width="230"/> | <img src="https://skillicons.dev/icons?i=jenkins,gitlab,githubactions,grafana,prometheus,linux" width="230"/> |
-
 ### 🏆 Key Highlights & Experience
 
 #### **SoundCloud | Search Engineering**

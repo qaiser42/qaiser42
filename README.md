@@ -8,7 +8,7 @@
 
   <br/>
 
-  **Cloud Platform Architect & Tech Lead**
+  **Freelance Cloud Platform Architect & Tech Lead**
   *12+ years delivering high-impact results for brands like SoundCloud, AboutYou, SAP, and RTL.*
 
   [🌐 qaiser42.io](https://qaiser42.io) • [📫 Contact Me](mailto:hi@qaiser42.io) • [👔 LinkedIn](https://linkedin.com/in/qaiser-abbasi-aa1a87156)

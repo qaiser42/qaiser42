@@ -11,5 +11,7 @@ func main() {
     // 12+ years of experience delivering for:
     // SoundCloud, AboutYou, SAP, RTL, Delivery Hero
     
-    me.BuildReliableSystems()
+    for {
+        me.BuildReliableSystems()
+    }
 }

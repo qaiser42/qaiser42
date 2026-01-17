@@ -1,32 +1,23 @@
-<div align="center">
+```go
+type Engineer struct {
+    Name      string
+    Role      string
+    Location  string
+    Language  string
+    Passion   []string
+}
 
-  ![Golang](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-  ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-  ![Kubernetes](https://img.shields.io/badge/kubernetes-326ce5.svg?&style=for-the-badge&logo=kubernetes&logoColor=white)
-  ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-  ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-  <br/>
-
-  **Freelance Cloud Platform Architect & Tech Lead**
-  
-  *12+ years delivering high-impact results for brands like SoundCloud, AboutYou, SAP, and RTL.*
-
-  [🌐 qaiser42.io](https://qaiser42.io) • [📫 Contact Me](mailto:hi@qaiser42.io) • [👔 LinkedIn](https://linkedin.com/in/qaiser-abbasi-aa1a87156)
-
-</div>
-
----
-
-### 🚀 About Me
-I help teams build and scale **reliable cloud-native systems**, streamline DevOps processes, and solve complex backend challenges. My focus is on **Golang**, **Infrastructure as Code (IaC)**, and **Platform Engineering**.
-
-* 🔭 **I build:** High-performance Backend Systems & Internal Developer Platforms (IDPs).
-* 🤝 **I lead:** Cross-functional teams in R&D and software development.
-* 🧙 **I solve:** Complex infrastructure challenges (e.g., scaling Elasticsearch clusters to 100+ nodes).
-
-
-### 📚 Community & Mentorship
-I am passionate about enabling cross-team knowledge sharing.
-* **Lecturer:** Software Engineering at FOM University Berlin.
-* **Workshops:** Hosting sessions on Golang, Docker, and Terraform strategies.
+func main() {
+    me := Engineer{
+        Name:     "Qaiser Abbasi",
+        Role:     "Cloud Platform Architect & Tech Lead",
+        Location: "Berlin",
+        Language: "Php",
+        Passion:  []string{"Scaling Systems", "DevOps", "Mentoring"},
+    }
+    
+    // 12+ years of experience delivering for:
+    // SoundCloud, AboutYou, SAP, RTL, Delivery Hero
+    
+    me.BuildReliableSystems()
+}

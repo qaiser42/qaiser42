@@ -1,17 +1,17 @@
 ```go
 func main() {
-    me := Engineer{
-        Name:     "Qaiser Abbasi",
-        Role:     "Cloud Platform Architect & Tech Lead",
-        Location: "Berlin",
-        Language: "Go",
-        Passion:  []string{"Scaling Systems", "DevOps", "Cloud", "Mentoring"},
+    i := Engineer{
+        Role:  "Cloud Platform Architect",
+        Lang:  "Golang",
+        Tools: []string{"Terraform", "AWS", "Kubernetes"},
     }
-    
-    // 12+ years of experience delivering for:
-    // SoundCloud, AboutYou, SAP, RTL, Delivery Hero
-    
-    for {
-        me.BuildReliableSystems()
+
+    clients = append(clients, []string{"SoundCloud", "AboutYou", "SAP", "RTL", "DeliveryHero"})
+
+    for _, client := range clients {
+        // Delivering high-impact results since 2012
+        i.BuildReliableSystems(client)
+        i.Optimize(client)
     }
 }
+```

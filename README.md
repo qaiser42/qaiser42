@@ -1,12 +1,4 @@
 ```go
-type Engineer struct {
-    Name      string
-    Role      string
-    Location  string
-    Language  string
-    Passion   []string
-}
-
 func main() {
     me := Engineer{
         Name:     "Qaiser Abbasi",

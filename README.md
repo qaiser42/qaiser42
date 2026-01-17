@@ -12,8 +12,8 @@ func main() {
         Name:     "Qaiser Abbasi",
         Role:     "Cloud Platform Architect & Tech Lead",
         Location: "Berlin",
-        Language: "Php",
-        Passion:  []string{"Scaling Systems", "DevOps", "Mentoring"},
+        Language: "Go",
+        Passion:  []string{"Scaling Systems", "DevOps", "Cloud", "Mentoring"},
     }
     
     // 12+ years of experience delivering for:

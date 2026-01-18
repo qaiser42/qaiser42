@@ -21,7 +21,7 @@ I help teams build and scale **reliable cloud-native systems**, streamline DevOp
 
 | Core | Infrastructure & Cloud | DevOps & Tools |
 | :--- | :--- | :--- |
-| <img src="https://skillicons.dev/icons?i=go,java,scala,python,ts" width="200"/> | <img src="https://skillicons.dev/icons?i=terraform,aws,gcp,kubernetes,docker,kafka" width="230"/> | <img src="https://skillicons.dev/icons?i=jenkins,gitlab,githubactions,grafana,prometheus,linux" width="230"/> |
+| <img src="https://skillicons.dev/icons?i=go,java,scala,python" width="200"/> | <img src="https://skillicons.dev/icons?i=terraform,aws,gcp,kubernetes,docker,kafka" width="230"/> | <img src="https://skillicons.dev/icons?i=jenkins,gitlab,githubactions,grafana,prometheus,linux" width="230"/> |
 
 ### 🏆 Key Highlights & Experience
 
@@ -30,7 +30,7 @@ I help teams build and scale **reliable cloud-native systems**, streamline DevOp
 * **Impact:** Improved p95 search latency **4x** and reduced reindex duration from **6 hours to 1 hour**.
 * 📖 *[Read the Case Study](https://developers.soundcloud.com/blog/how-to-reindex-1-billion-documents-in-1-hour-at-soundcloud)*
 
-#### **Schwarz Group | Lead CloudOps**
+#### **Schwarz Group | Tech Lead CloudOps**
 * **Challenge:** Bootstrapping a multi-cloud backend for an Internal Developer Platform (IDP).
 * **Impact:** Enabled 50+ teams to deploy predefined Terraform templates via a 1-click app interface using **Go**, **OpenTofu**, and **env0**.
 

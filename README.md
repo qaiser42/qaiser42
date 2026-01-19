@@ -10,7 +10,6 @@
 
 ---
 
-### 🚀 About Me
 I help teams build and scale **reliable cloud-native systems**, streamline DevOps processes, and solve complex backend challenges. My focus is on **Golang**, **Infrastructure as Code (IaC)**, and **Platform Engineering**.
 
 * 🔭 **I build:** High-performance Backend Systems & Internal Developer Platforms (IDPs).

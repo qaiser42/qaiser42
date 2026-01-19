@@ -1,6 +1,7 @@
 <div align="center">
 
 <br/>
+
   **Cloud Platform Architect & Tech Lead**
   
   *12+ years delivering high-impact results for brands like SoundCloud, AboutYou, SAP, and RTL.*

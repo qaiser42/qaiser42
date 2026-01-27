@@ -1,19 +1,15 @@
-<div align="center">
-
-<br/>
-
-  **Independent Cloud Platform Architect & Tech Lead**
-  
-  *12+ years delivering high-impact results for brands like SoundCloud, AboutYou, SAP, and RTL.*
-
-</div>
-
----
-
-I help teams build and scale **reliable cloud-native systems**, streamline DevOps processes, and solve complex backend challenges. My focus is on **Golang**, **Infrastructure as Code (IaC)**, and **Platform Engineering**.
-
-* 🔭 **I build:** High-performance Backend Systems & Internal Developer Platforms (IDPs).
-* 🤝 **I lead:** Cross-functional teams in R&D and software development.
-* 🧙 **I solve:** Complex infrastructure challenges (e.g., scaling Elasticsearch clusters to 100+ nodes).
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!-- your animated GIF -->
+    <img
+        src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExczdid3pkenVrc3Bjam9oZHRjMGdydWQweWxlOG80NmdxcWM2OTVtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NSzHiAwAcazs7dcDr9/giphy.gif"
+        alt="Animated GIF"
+        width="500"
+        height="auto"
+    />
+</body>
+</html>

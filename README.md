@@ -12,7 +12,7 @@
       height="auto"
   />
   <img
-    src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2Jra3o0azFlOTlucDhhajJ5cXZwdmtveHlzaXk3MDV0b2J3eTNvNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/X6hiFJjvTDAAw/giphy.gif"
+    src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFvcjJuOGZiY2pkamh1azdic2MyNGZyMGVtcTQ2N3YzeWl5aXprMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QLAKGVsDj6DSQrex8A/giphy.gif"
     width="300"
     alt=""
       height="300"

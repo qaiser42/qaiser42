@@ -1,1 +1,1 @@
-[Don't click me](https://github.com/qaiser42)
+> It's not a bug, it's a freelance opportunity.

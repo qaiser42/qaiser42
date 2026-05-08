@@ -22,14 +22,13 @@
     z-index: 2;
   }
   .name {
-    font-size: clamp(40px, 9vw, 120px);
-    font-weight: 500;
-    color: #d4ffe4;
-    letter-spacing: -0.04em;
-    text-shadow: 0 0 40px rgba(0, 255, 140, 0.3);
+    font-size: clamp(28px, 6vw, 72px);
+    font-weight: 400;
+    color: #d4f0ff;
+    letter-spacing: 0.02em;
+    text-shadow: 0 0 40px rgba(60, 180, 255, 0.3);
     mix-blend-mode: screen;
   }
-  .name .at { color: rgba(0, 255, 140, 0.6); }
   .tag {
     margin-top: 0.5rem;
     font-size: clamp(11px, 1.3vw, 14px);
@@ -67,17 +66,9 @@
 
 <canvas id="gl"></canvas>
 
-<div class="corner tl">[ qaiser42.io ]</div>
-<div class="corner tr">berlin / de</div>
-<div class="corner bl">cloud_arch.devops</div>
-<div class="corner br">v.42</div>
-
 <div class="overlay">
-  <div class="name">qaiser<span class="at">42</span></div>
-  <div class="tag">cloud architect &middot; devops &middot; freelance</div>
+  <div class="name">be water, my friend</div>
 </div>
-
-<div class="footer">&gt; the answer is forty-two</div>
 
 <script>
 const canvas = document.getElementById('gl');
@@ -129,7 +120,7 @@ const fsSource = `
     vec2 uv = (gl_FragCoord.xy - 0.5 * u_resolution.xy) / u_resolution.y;
     vec2 mouse = (u_mouse - 0.5 * u_resolution.xy) / u_resolution.y;
 
-    float t = u_time * 0.08;
+    float t = u_time * 0.05;
 
     // mouse influence (subtle)
     vec2 m = mouse * 0.3;
@@ -147,12 +138,12 @@ const fsSource = `
 
     float f = fbm(uv + 4.0 * r);
 
-    // terminal-green palette
+    // ocean blue-teal palette
     vec3 base = vec3(0.0, 0.0, 0.0);
-    vec3 deep = vec3(0.0, 0.15, 0.08);
-    vec3 mid  = vec3(0.0, 0.55, 0.32);
-    vec3 hot  = vec3(0.4, 1.0, 0.65);
-    vec3 acc  = vec3(0.7, 1.0, 0.85);
+    vec3 deep = vec3(0.0, 0.08, 0.18);
+    vec3 mid  = vec3(0.05, 0.35, 0.55);
+    vec3 hot  = vec3(0.2, 0.65, 0.9);
+    vec3 acc  = vec3(0.7, 0.92, 1.0);
 
     vec3 col = base;
     col = mix(col, deep, smoothstep(0.0, 0.4, f));
@@ -163,10 +154,6 @@ const fsSource = `
     // contrast curve
     col = pow(col, vec3(1.1));
     col *= 1.2;
-
-    // scanline (very subtle, terminal feel)
-    float scan = 0.96 + 0.04 * sin(gl_FragCoord.y * 1.5 + u_time * 2.0);
-    col *= scan;
 
     // vignette
     float vig = 1.0 - 0.5 * length(uv * vec2(0.7, 1.0));

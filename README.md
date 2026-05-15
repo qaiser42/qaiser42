@@ -1,1 +1,1 @@
-Need something to relax? [Click](http://qaiser42.io/qaiser42)
+Need something to relax? [Click](https://qaiser42.io/qaiser42)
